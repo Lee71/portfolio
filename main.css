@@ -1,0 +1,121 @@
+
+.main-header {
+    background: url(picture.img/Kansas-City-Scout.jpg) no-repeat;
+    background-size: cover;
+    background-position: right top;
+    
+    }
+.backdrop {
+   text-align: center;
+    font-size: 36px;
+    padding: 50px 0;
+   }
+.intro {
+    color: black;
+}
+nav li {
+  display: inline-block;
+  padding: .5rem 1rem;
+  font-size: 2.5rem;
+}
+.menu-item {
+  text-decoration: none;
+  padding: 0, 5px;
+}
+nav {
+  text-align: center;
+}
+.active-link {
+    color: black;
+    background: linear-gradient( to right, rgb(255,0,0,.7), white, rgb(0,0,255,.7) );
+}
+h4 {
+  text-align: center;
+}
+h1, h2{
+  color: blue;
+  text-transform: capitalize;
+}
+p {
+    font-size: 1.25rem;
+    padding: 0 20px;
+}
+.history {
+    text-align: center; 
+}
+.spare-time {
+    margin-top: 50px;
+    text-align: center;
+}
+.my-work {
+    text-align: center;
+}
+.projects {
+    font-size: 35px;
+}
+.projectname { 
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+  }
+.contact {
+   margin-top: 100px;
+}
+ .social {
+    text-decoration: none;
+    position: center  bottom fixed;
+    background: linear-gradient( to right, rgb(255,0,0,.8), white, rgb(0,0,255,.8));
+    display: inline-block;
+}
+.resume {
+  text-align: center;
+   margin-bottom: 30px;
+}
+#resume {
+  font-size: 35px;
+}
+.personal {
+  text-transform: uppercase;
+  text-align: center;
+  color: red;
+}
+#projects {
+    display: block;
+    text-align: center;
+    border: solid blue; 
+    border-width: 15px 5px 5px 5px;
+    border-radius: 15px;
+    margin: 50px 5px;
+    padding: 30px 5px;
+}
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+    .main-header {
+    background: url(picture.img/Kansas-City-Scout.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    }
+    p {
+        font-size: 2.5rem;
+        background-color: #00bfff;
+    }
+   h1, h2{
+  color: blue;
+  text-transform: capitalize;
+  font-size: 4rem;
+  } 
+  h3 {
+    font-size: 2rem;
+  }
+    .projectname {
+        font-size: 3rem;
+    }
+    .projects {
+    font-size: 4rem;
+  }
+}
